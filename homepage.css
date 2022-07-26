@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.back_homepage {
+    font-size: 40px;
+    padding: 20px;
+    margin-right: auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.title {
+    padding: 20px;
+}
+
+.menuicon {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.menuicon:hover {
+    color: blue;
+}
+
+.gametitle {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(91, 139, 241);
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(91, 139, 241);
+    margin: 0;
+    height: 80vh;
+}
+
+.gamebox {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    margin: 50px;
+    color: inherit;
+    box-shadow: 10px black;
+}
+
+.gamebox, .gamebox:focus, .gamebox:active {
+    text-decoration: none;
+}
+
+.gamebox:hover {
+    color: white;
+    background-color: darkgray;
+}
+.gamebox > i,h1,p {
+    margin: 0;
+}
+
+.gamebox > i {
+    font-size: 100px;
+    border-bottom: 2px solid #CDD6DD;
+}
+
+.gamebox > p {
+    padding-bottom: 50px;
+}
+
+.bottom {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
